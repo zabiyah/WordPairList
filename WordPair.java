@@ -3,7 +3,8 @@ public class WordPair {
     private String first;
     private String second;
     public WordPair(String first, String second) {
-        /* implementation not shown */ }
+        this.first = first;
+        this.second =second; }
         public String toString(){
             return "(\""+first+"\",\""+second+"\")";
         }
